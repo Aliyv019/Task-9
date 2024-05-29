@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(237, 243, 255);
+}
+main{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+#back{
+    position: absolute;
+    width: 300px;
+    height: 539px;
+    top: 146px;
+    left: 567px;
+    border-radius: 10px;
+    background: rgb(77, 73, 232);
+}
+.sign_in{
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    padding: 50px 40px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    width: 345px;
+}
+.sign_in h1{
+    color: rgb(15, 17, 40);
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.sign_in label{
+    color: rgb(15, 17, 40);
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 5px;
+}
+.sign_in input{
+    padding: 10px 15px;
+    border: 2px solid rgb(207, 216, 234);
+    border-radius: 5px;
+    background: rgba(217, 217, 217, 0);
+}
+.sign_in input[type="email"]{
+    margin-bottom: 25px;
+}
+.sign_in input[type="password"]{
+    margin-bottom: 20px;
+}
+.sign_in input::placeholder{
+    color: rgb(211, 211, 211);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.but_forgot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+#forgot_password{
+    color: rgb(15, 17, 40);
+font-family: Poppins;
+font-size: 12px;
+font-weight: 600;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration: none;
+}
+.sign_in_btn {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 30px;
+    padding: 13px 20px;
+    background: rgb(77, 73, 232);
+    text-decoration: none;
+}
+.sign_up{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.sign_up a{
+    color: rgb(15, 17, 40);
+font-family: Poppins;
+font-size: 12px;
+font-weight: 600;
+line-height: 18px;
+letter-spacing: 0%;
+text-decoration: none;
+margin-bottom: 5px;
+}
